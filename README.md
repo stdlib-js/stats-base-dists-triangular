@@ -18,26 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Triangular
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Triangular distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-triangular
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Triangular, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
+var triangular = require( '@stdlib/stats-base-dists-triangular' );
 ```
 
 #### triangular
@@ -98,7 +119,7 @@ The namespace contains a constructor function for creating a [triangular][triang
 <!-- </toc> -->
 
 ```javascript
-var Triangular = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular' ).Triangular;
+var Triangular = require( '@stdlib/stats-base-dists-triangular' ).Triangular;
 
 var dist = new Triangular( 2.0, 4.0, 3.0 );
 
@@ -121,20 +142,11 @@ y = dist.quantile( 1.9 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var triangular = require( '@stdlib/stats-base-dists-triangular' );
 
 console.log( objectKeys( triangular ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -158,7 +170,7 @@ console.log( objectKeys( triangular ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -188,8 +200,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-triangular.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-triangular
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-triangular/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-triangular/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-triangular/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-triangular/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-triangular/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-triangular?branch=main
@@ -222,35 +234,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/triangular/ctor]: https://github.com/stdlib-js/stats-base-dists-triangular-ctor/tree/esm
+[@stdlib/stats/base/dists/triangular/ctor]: https://github.com/stdlib-js/stats-base-dists-triangular-ctor
 
-[@stdlib/stats/base/dists/triangular/entropy]: https://github.com/stdlib-js/stats-base-dists-triangular-entropy/tree/esm
+[@stdlib/stats/base/dists/triangular/entropy]: https://github.com/stdlib-js/stats-base-dists-triangular-entropy
 
-[@stdlib/stats/base/dists/triangular/kurtosis]: https://github.com/stdlib-js/stats-base-dists-triangular-kurtosis/tree/esm
+[@stdlib/stats/base/dists/triangular/kurtosis]: https://github.com/stdlib-js/stats-base-dists-triangular-kurtosis
 
-[@stdlib/stats/base/dists/triangular/mean]: https://github.com/stdlib-js/stats-base-dists-triangular-mean/tree/esm
+[@stdlib/stats/base/dists/triangular/mean]: https://github.com/stdlib-js/stats-base-dists-triangular-mean
 
-[@stdlib/stats/base/dists/triangular/median]: https://github.com/stdlib-js/stats-base-dists-triangular-median/tree/esm
+[@stdlib/stats/base/dists/triangular/median]: https://github.com/stdlib-js/stats-base-dists-triangular-median
 
-[@stdlib/stats/base/dists/triangular/mode]: https://github.com/stdlib-js/stats-base-dists-triangular-mode/tree/esm
+[@stdlib/stats/base/dists/triangular/mode]: https://github.com/stdlib-js/stats-base-dists-triangular-mode
 
-[@stdlib/stats/base/dists/triangular/skewness]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/tree/esm
+[@stdlib/stats/base/dists/triangular/skewness]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness
 
-[@stdlib/stats/base/dists/triangular/stdev]: https://github.com/stdlib-js/stats-base-dists-triangular-stdev/tree/esm
+[@stdlib/stats/base/dists/triangular/stdev]: https://github.com/stdlib-js/stats-base-dists-triangular-stdev
 
-[@stdlib/stats/base/dists/triangular/variance]: https://github.com/stdlib-js/stats-base-dists-triangular-variance/tree/esm
+[@stdlib/stats/base/dists/triangular/variance]: https://github.com/stdlib-js/stats-base-dists-triangular-variance
 
-[@stdlib/stats/base/dists/triangular/cdf]: https://github.com/stdlib-js/stats-base-dists-triangular-cdf/tree/esm
+[@stdlib/stats/base/dists/triangular/cdf]: https://github.com/stdlib-js/stats-base-dists-triangular-cdf
 
-[@stdlib/stats/base/dists/triangular/logcdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logcdf/tree/esm
+[@stdlib/stats/base/dists/triangular/logcdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logcdf
 
-[@stdlib/stats/base/dists/triangular/logpdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logpdf/tree/esm
+[@stdlib/stats/base/dists/triangular/logpdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logpdf
 
-[@stdlib/stats/base/dists/triangular/mgf]: https://github.com/stdlib-js/stats-base-dists-triangular-mgf/tree/esm
+[@stdlib/stats/base/dists/triangular/mgf]: https://github.com/stdlib-js/stats-base-dists-triangular-mgf
 
-[@stdlib/stats/base/dists/triangular/pdf]: https://github.com/stdlib-js/stats-base-dists-triangular-pdf/tree/esm
+[@stdlib/stats/base/dists/triangular/pdf]: https://github.com/stdlib-js/stats-base-dists-triangular-pdf
 
-[@stdlib/stats/base/dists/triangular/quantile]: https://github.com/stdlib-js/stats-base-dists-triangular-quantile/tree/esm
+[@stdlib/stats/base/dists/triangular/quantile]: https://github.com/stdlib-js/stats-base-dists-triangular-quantile
 
 <!-- </toc-links> -->
 
