@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-triangular = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js' )
+triangular = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var triangular = require( 'path/to/vendor/umd/stats-base-dists-triangular/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -155,7 +155,7 @@ y = dist.quantile( 1.9 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
