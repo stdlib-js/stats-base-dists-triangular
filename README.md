@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Triangular, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
+import { Triangular, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.2-esm/index.mjs';
 ```
 
 #### triangular
@@ -139,7 +139,7 @@ y = dist.quantile( 1.9 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@esm/index.mjs';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.2.2-esm/index.mjs';
 
 console.log( objectKeys( triangular ) );
 
