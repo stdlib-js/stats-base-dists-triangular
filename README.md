@@ -35,38 +35,32 @@ limitations under the License.
 
 > Triangular distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-triangular
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-triangular = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var triangular = require( 'path/to/vendor/umd/stats-base-dists-triangular/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.triangular;
-})();
-</script>
+var triangular = require( '@stdlib/stats-base-dists-triangular' );
 ```
 
 #### triangular
@@ -146,25 +140,62 @@ y = dist.quantile( 1.9 );
 
 ## Examples
 
-<!-- TODO: better examples -->
-
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var triangular = require( '@stdlib/stats-base-dists-triangular' );
 
-console.log( objectKeys( triangular ) );
+// Scenario: Modeling completion time for a software development task
 
-})();
-</script>
-</body>
-</html>
+// Define the distribution parameters (in hours):
+var a = 1.5; // Minimum time (best-case scenario)
+var b = 4.5; // Maximum time (worst-case scenario)
+var c = discreteUniform( 2, 4 ); // Most likely time (mode)
+console.log( 'a: %d, b: %d, c: %d', a, b, c );
+
+// Expected (mean) completion time:
+var mean = triangular.mean( a, b, c );
+console.log( '\nExpected completion time: %d hours', mean );
+
+// Median completion time:
+var median = triangular.median( a, b, c );
+console.log( 'Median completion time: %d hours', median );
+
+// Variance in completion time:
+var variance = triangular.variance( a, b, c );
+console.log( 'Variance in completion time: %d hours^2', variance );
+
+// Probability of completing the task within 3 hours:
+var x = 3.0;
+var prob = triangular.cdf( x, a, b, c );
+console.log( '\nProbability of completing within %d hours: %d', x, prob );
+
+// 90th percentile of completion time:
+var p = 0.9;
+var percentile = triangular.quantile( p, a, b, c );
+console.log( '90% of tasks will be completed within %d hours', percentile );
+
+// Relative likelihood of completing the task in exactly 2.5 hours:
+x = 2.5;
+var likelihood = triangular.pdf( x, a, b, c );
+console.log( '\nRelative likelihood of completing in exactly %d hours: %d', x, likelihood );
+
+// Skewness to understand the distribution's shape:
+var skewness = triangular.skewness( a, b, c );
+console.log( '\nSkewness of completion times: %d', skewness );
+if ( skewness > 0 ) {
+    console.log( 'The distribution is right-skewed, suggesting occasional longer completion times.' );
+} else if ( skewness < 0 ) {
+    console.log( 'The distribution is left-skewed, suggesting occasional shorter completion times.' );
+} else {
+    console.log( 'The distribution is symmetric.' );
+}
+
+// Entropy as a measure of uncertainty in the estimate:
+var entropy = triangular.entropy( a, b, c );
+console.log( '\nEntropy of the distribution: %d nats', entropy );
+console.log( 'Higher entropy indicates more uncertainty in completion times.' );
 ```
 
 </section>
@@ -255,35 +286,35 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/triangular/ctor]: https://github.com/stdlib-js/stats-base-dists-triangular-ctor/tree/umd
+[@stdlib/stats/base/dists/triangular/ctor]: https://github.com/stdlib-js/stats-base-dists-triangular-ctor
 
-[@stdlib/stats/base/dists/triangular/entropy]: https://github.com/stdlib-js/stats-base-dists-triangular-entropy/tree/umd
+[@stdlib/stats/base/dists/triangular/entropy]: https://github.com/stdlib-js/stats-base-dists-triangular-entropy
 
-[@stdlib/stats/base/dists/triangular/kurtosis]: https://github.com/stdlib-js/stats-base-dists-triangular-kurtosis/tree/umd
+[@stdlib/stats/base/dists/triangular/kurtosis]: https://github.com/stdlib-js/stats-base-dists-triangular-kurtosis
 
-[@stdlib/stats/base/dists/triangular/mean]: https://github.com/stdlib-js/stats-base-dists-triangular-mean/tree/umd
+[@stdlib/stats/base/dists/triangular/mean]: https://github.com/stdlib-js/stats-base-dists-triangular-mean
 
-[@stdlib/stats/base/dists/triangular/median]: https://github.com/stdlib-js/stats-base-dists-triangular-median/tree/umd
+[@stdlib/stats/base/dists/triangular/median]: https://github.com/stdlib-js/stats-base-dists-triangular-median
 
-[@stdlib/stats/base/dists/triangular/mode]: https://github.com/stdlib-js/stats-base-dists-triangular-mode/tree/umd
+[@stdlib/stats/base/dists/triangular/mode]: https://github.com/stdlib-js/stats-base-dists-triangular-mode
 
-[@stdlib/stats/base/dists/triangular/skewness]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness/tree/umd
+[@stdlib/stats/base/dists/triangular/skewness]: https://github.com/stdlib-js/stats-base-dists-triangular-skewness
 
-[@stdlib/stats/base/dists/triangular/stdev]: https://github.com/stdlib-js/stats-base-dists-triangular-stdev/tree/umd
+[@stdlib/stats/base/dists/triangular/stdev]: https://github.com/stdlib-js/stats-base-dists-triangular-stdev
 
-[@stdlib/stats/base/dists/triangular/variance]: https://github.com/stdlib-js/stats-base-dists-triangular-variance/tree/umd
+[@stdlib/stats/base/dists/triangular/variance]: https://github.com/stdlib-js/stats-base-dists-triangular-variance
 
-[@stdlib/stats/base/dists/triangular/cdf]: https://github.com/stdlib-js/stats-base-dists-triangular-cdf/tree/umd
+[@stdlib/stats/base/dists/triangular/cdf]: https://github.com/stdlib-js/stats-base-dists-triangular-cdf
 
-[@stdlib/stats/base/dists/triangular/logcdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logcdf/tree/umd
+[@stdlib/stats/base/dists/triangular/logcdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logcdf
 
-[@stdlib/stats/base/dists/triangular/logpdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logpdf/tree/umd
+[@stdlib/stats/base/dists/triangular/logpdf]: https://github.com/stdlib-js/stats-base-dists-triangular-logpdf
 
-[@stdlib/stats/base/dists/triangular/mgf]: https://github.com/stdlib-js/stats-base-dists-triangular-mgf/tree/umd
+[@stdlib/stats/base/dists/triangular/mgf]: https://github.com/stdlib-js/stats-base-dists-triangular-mgf
 
-[@stdlib/stats/base/dists/triangular/pdf]: https://github.com/stdlib-js/stats-base-dists-triangular-pdf/tree/umd
+[@stdlib/stats/base/dists/triangular/pdf]: https://github.com/stdlib-js/stats-base-dists-triangular-pdf
 
-[@stdlib/stats/base/dists/triangular/quantile]: https://github.com/stdlib-js/stats-base-dists-triangular-quantile/tree/umd
+[@stdlib/stats/base/dists/triangular/quantile]: https://github.com/stdlib-js/stats-base-dists-triangular-quantile
 
 <!-- </toc-links> -->
 
