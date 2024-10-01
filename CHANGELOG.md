@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-07)
+## Unreleased (2024-10-01)
 
 <section class="packages">
 
@@ -21,7 +21,7 @@
 A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Tufail
+-   Tufailahmed Bargir
 
 </section>
 
@@ -33,7 +33,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`71af75e`](https://github.com/stdlib-js/stdlib/commit/71af75ec2c9066eb59288ad525ddbf1ad782db0c) - **docs:** improve examples `stats/base/dists/triangular` namespace _(by Tufail, Philipp Burckhardt)_
+-   [`71af75e`](https://github.com/stdlib-js/stdlib/commit/71af75ec2c9066eb59288ad525ddbf1ad782db0c) - **docs:** improve examples `stats/base/dists/triangular` namespace _(by Tufailahmed Bargir, Philipp Burckhardt)_
 
 </details>
 
