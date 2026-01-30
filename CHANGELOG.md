@@ -2,492 +2,55 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-03-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-triangular-entropy-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/entropy)
-
-<details>
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
-##### Features
+### Features
 
--   [`fc9ae04`](https://github.com/stdlib-js/stdlib/commit/fc9ae04de27f1f42a60bc3c266765f2e86dfd98e) - add C implementation for `stats/base/dists/triangular/entropy` [(#4255)](https://github.com/stdlib-js/stdlib/pull/4255)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3812](https://github.com/stdlib-js/stdlib/issues/3812)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-kurtosis-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8a76708`](https://github.com/stdlib-js/stdlib/commit/8a767088c956f13116988ee8967e9e4f74c0f564) - add C implementation for `stats/base/dists/triangular/kurtosis` [(#4256)](https://github.com/stdlib-js/stdlib/pull/4256)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3813](https://github.com/stdlib-js/stdlib/issues/3813)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-logcdf-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`17b5854`](https://github.com/stdlib-js/stdlib/commit/17b58546865fa067126bfdc11a8ae72f878cd96f) - add C implementation for `stats/base/dists/triangular/cdf` [(#4669)](https://github.com/stdlib-js/stdlib/pull/4669)
+-   [`3ee60b4`](https://github.com/stdlib-js/stdlib/commit/3ee60b4370969d787a3446b90b276f74bc2f9cb3) - add C implementation for `stats/base/dists/triangular/quantile` [(#4307)](https://github.com/stdlib-js/stdlib/pull/4307)
 -   [`be656a1`](https://github.com/stdlib-js/stdlib/commit/be656a143216896aa6b1ce0df89646e6a3565ec9) - add C implementation for `stats/base/dists/triangular/logcdf` [(#4326)](https://github.com/stdlib-js/stdlib/pull/4326)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3814](https://github.com/stdlib-js/stdlib/issues/3814), [#5900](https://github.com/stdlib-js/stdlib/issues/5900)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-logpdf-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/logpdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`105516a`](https://github.com/stdlib-js/stdlib/commit/105516a2100144dce5d97682d979807a84ab1cb8) - add C implementation for `stats/base/dists/triangular/logpdf` [(#4671)](https://github.com/stdlib-js/stdlib/pull/4671)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3815](https://github.com/stdlib-js/stdlib/issues/3815)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`1040b76`](https://github.com/stdlib-js/stdlib/commit/1040b76eca609dd8557525b79be6903dcf8c607d) - add C implementation for `stats/base/dists/triangular/variance` [(#4000)](https://github.com/stdlib-js/stdlib/pull/4000)
+-   [`12d1a13`](https://github.com/stdlib-js/stdlib/commit/12d1a136f24395a9b223bf2ff0b9aa8ee3d0a61f) - add C implementation for `stats/base/dists/triangular/pdf` [(#4322)](https://github.com/stdlib-js/stdlib/pull/4322)
+-   [`98fa29f`](https://github.com/stdlib-js/stdlib/commit/98fa29f0c3aa52aca0bbfb9bdf173250b4fd860a) - add C implementation for `stats/base/dists/triangular/mgf` [(#4330)](https://github.com/stdlib-js/stdlib/pull/4330)
+-   [`82745a5`](https://github.com/stdlib-js/stdlib/commit/82745a55bcc54c1c2bab053cfc0c7f7dc10d52f1) - add C implementation for `stats/base/dists/triangular/skewness` [(#4259)](https://github.com/stdlib-js/stdlib/pull/4259)
+-   [`8a76708`](https://github.com/stdlib-js/stdlib/commit/8a767088c956f13116988ee8967e9e4f74c0f564) - add C implementation for `stats/base/dists/triangular/kurtosis` [(#4256)](https://github.com/stdlib-js/stdlib/pull/4256)
+-   [`fc9ae04`](https://github.com/stdlib-js/stdlib/commit/fc9ae04de27f1f42a60bc3c266765f2e86dfd98e) - add C implementation for `stats/base/dists/triangular/entropy` [(#4255)](https://github.com/stdlib-js/stdlib/pull/4255)
+-   [`013c9ac`](https://github.com/stdlib-js/stdlib/commit/013c9ac4695d3ff46ecde12644af8c35aa0be706) - add C implementation for `stats/base/dists/triangular/stdev` [(#4258)](https://github.com/stdlib-js/stdlib/pull/4258)
 -   [`b884459`](https://github.com/stdlib-js/stdlib/commit/b8844596b7f57a356ff38333c0c5da9b63401874) - add C implementation for `stats/base/dists/triangular/mean` [(#4006)](https://github.com/stdlib-js/stdlib/pull/4006)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3816](https://github.com/stdlib-js/stdlib/issues/3816)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-median-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`daf43b2`](https://github.com/stdlib-js/stdlib/commit/daf43b2052a0ad89fa4c72caee6d7caedcc4cc38) - add C implementation for `stats/base/dists/triangular/mode` [(#4008)](https://github.com/stdlib-js/stdlib/pull/4008)
 -   [`8bb1cf3`](https://github.com/stdlib-js/stdlib/commit/8bb1cf3e5a003c54a909412cda9143d85ec10f30) - add C implementation for `dist/triangular/median` [(#4004)](https://github.com/stdlib-js/stdlib/pull/4004)
 
 </section>
 
 <!-- /.features -->
 
-<section class="issues">
+<section class="bug-fixes">
 
-##### Closed Issues
+### Bug Fixes
 
-A total of 2 issues were closed in this release:
-
-[#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#5709](https://github.com/stdlib-js/stdlib/issues/5709)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
+-   [`62614d7`](https://github.com/stdlib-js/stdlib/commit/62614d7ddd740208bfe21cc1e5d4c7f9cc97a507) - remove unused `sqrt` dependency from `triangular/kurtosis` manifest
+-   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - replace pow with expm1 dependency in triangular/mgf benchmark and examples
 
 </section>
 
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mgf-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`98fa29f`](https://github.com/stdlib-js/stdlib/commit/98fa29f0c3aa52aca0bbfb9bdf173250b4fd860a) - add C implementation for `stats/base/dists/triangular/mgf` [(#4330)](https://github.com/stdlib-js/stdlib/pull/4330)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#4704](https://github.com/stdlib-js/stdlib/issues/4704)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`daf43b2`](https://github.com/stdlib-js/stdlib/commit/daf43b2052a0ad89fa4c72caee6d7caedcc4cc38) - add C implementation for `stats/base/dists/triangular/mode` [(#4008)](https://github.com/stdlib-js/stdlib/pull/4008)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3819](https://github.com/stdlib-js/stdlib/issues/3819)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-pdf-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`12d1a13`](https://github.com/stdlib-js/stdlib/commit/12d1a136f24395a9b223bf2ff0b9aa8ee3d0a61f) - add C implementation for `stats/base/dists/triangular/pdf` [(#4322)](https://github.com/stdlib-js/stdlib/pull/4322)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3820](https://github.com/stdlib-js/stdlib/issues/3820)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-quantile-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3ee60b4`](https://github.com/stdlib-js/stdlib/commit/3ee60b4370969d787a3446b90b276f74bc2f9cb3) - add C implementation for `stats/base/dists/triangular/quantile` [(#4307)](https://github.com/stdlib-js/stdlib/pull/4307)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3821](https://github.com/stdlib-js/stdlib/issues/3821), [#5897](https://github.com/stdlib-js/stdlib/issues/5897)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-skewness-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`82745a5`](https://github.com/stdlib-js/stdlib/commit/82745a55bcc54c1c2bab053cfc0c7f7dc10d52f1) - add C implementation for `stats/base/dists/triangular/skewness` [(#4259)](https://github.com/stdlib-js/stdlib/pull/4259)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3822](https://github.com/stdlib-js/stdlib/issues/3822)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-stdev-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`013c9ac`](https://github.com/stdlib-js/stdlib/commit/013c9ac4695d3ff46ecde12644af8c35aa0be706) - add C implementation for `stats/base/dists/triangular/stdev` [(#4258)](https://github.com/stdlib-js/stdlib/pull/4258)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3823](https://github.com/stdlib-js/stdlib/issues/3823)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-variance-unreleased">
-
-#### [@stdlib/stats/base/dists/triangular/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`1040b76`](https://github.com/stdlib-js/stdlib/commit/1040b76eca609dd8557525b79be6903dcf8c607d) - add C implementation for `stats/base/dists/triangular/variance` [(#4000)](https://github.com/stdlib-js/stdlib/pull/4000)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3824](https://github.com/stdlib-js/stdlib/issues/3824)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 17 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3814](https://github.com/stdlib-js/stdlib/issues/3814), [#3815](https://github.com/stdlib-js/stdlib/issues/3815), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3821](https://github.com/stdlib-js/stdlib/issues/3821), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3824](https://github.com/stdlib-js/stdlib/issues/3824), [#4704](https://github.com/stdlib-js/stdlib/issues/4704), [#5709](https://github.com/stdlib-js/stdlib/issues/5709), [#5897](https://github.com/stdlib-js/stdlib/issues/5897), [#5900](https://github.com/stdlib-js/stdlib/issues/5900)
+[#3812](https://github.com/stdlib-js/stdlib/issues/3812), [#3813](https://github.com/stdlib-js/stdlib/issues/3813), [#3814](https://github.com/stdlib-js/stdlib/issues/3814), [#3815](https://github.com/stdlib-js/stdlib/issues/3815), [#3816](https://github.com/stdlib-js/stdlib/issues/3816), [#3817](https://github.com/stdlib-js/stdlib/issues/3817), [#3818](https://github.com/stdlib-js/stdlib/issues/3818), [#3819](https://github.com/stdlib-js/stdlib/issues/3819), [#3820](https://github.com/stdlib-js/stdlib/issues/3820), [#3821](https://github.com/stdlib-js/stdlib/issues/3821), [#3822](https://github.com/stdlib-js/stdlib/issues/3822), [#3823](https://github.com/stdlib-js/stdlib/issues/3823), [#3824](https://github.com/stdlib-js/stdlib/issues/3824), [#4668](https://github.com/stdlib-js/stdlib/issues/4668), [#4704](https://github.com/stdlib-js/stdlib/issues/4704), [#5709](https://github.com/stdlib-js/stdlib/issues/5709), [#5897](https://github.com/stdlib-js/stdlib/issues/5897), [#5900](https://github.com/stdlib-js/stdlib/issues/5900)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 10 people contributed to this release. Thank you to the following contributors:
-
--   AmanBhadkariya
--   Athan Reines
--   Divyansh Seth
--   Jalaj Kumar
--   Karan Anand
--   Philipp Burckhardt
--   Prashant Kumar Yadav
--   Pulkit Gupta
--   Saurabh Singh
--   Tufailahmed Bargir
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -495,8 +58,24 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`eb3218e`](https://github.com/stdlib-js/stdlib/commit/eb3218e35b0e498a31f286f8cf889e509a6d7792) - **style:** remove extra empty line [(#7932)](https://github.com/stdlib-js/stdlib/pull/7932) _(by stdlib-bot)_
+-   [`4589cee`](https://github.com/stdlib-js/stdlib/commit/4589cee4e69b2a4c4a433321f413824a69eebb6e) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
+-   [`7e24b8b`](https://github.com/stdlib-js/stdlib/commit/7e24b8ba0fff87a56584bb1a2fa106eb88267596) - **test:** slightly increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`17b5854`](https://github.com/stdlib-js/stdlib/commit/17b58546865fa067126bfdc11a8ae72f878cd96f) - **feat:** add C implementation for `stats/base/dists/triangular/cdf` [(#4669)](https://github.com/stdlib-js/stdlib/pull/4669) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
+-   [`62614d7`](https://github.com/stdlib-js/stdlib/commit/62614d7ddd740208bfe21cc1e5d4c7f9cc97a507) - **fix:** remove unused `sqrt` dependency from `triangular/kurtosis` manifest _(by Philipp Burckhardt)_
+-   [`049ef05`](https://github.com/stdlib-js/stdlib/commit/049ef0522b41e091f5669ffee094788eb40fc8ef) - **fix:** replace pow with expm1 dependency in triangular/mgf benchmark and examples _(by Philipp Burckhardt)_
+-   [`07cc4a4`](https://github.com/stdlib-js/stdlib/commit/07cc4a4f1aeec8d7d197d47b8a0db66be06a44f9) - **test:** align test descriptions between main and native test files _(by Philipp Burckhardt)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`4d17559`](https://github.com/stdlib-js/stdlib/commit/4d1755914f7ba64648c1ef6711f297c26c120e12) - **test:** fix missing argument _(by Athan Reines)_
 -   [`04c3454`](https://github.com/stdlib-js/stdlib/commit/04c34541dd27ecad16ba67f3ce455acdc9b7cef6) - **chore:** address commit comments [(#5941)](https://github.com/stdlib-js/stdlib/pull/5941) _(by Pulkit Gupta)_
--   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by AmanBhadkariya, Philipp Burckhardt)_
+-   [`2ce745b`](https://github.com/stdlib-js/stdlib/commit/2ce745bfa32318ef066ee82bd886d14f7432605f) - **chore:** address commit comments [(#5927)](https://github.com/stdlib-js/stdlib/pull/5927) _(by Aman Bhadkariya, Philipp Burckhardt)_
 -   [`2a46bc7`](https://github.com/stdlib-js/stdlib/commit/2a46bc7f9419e7b629197f54377d1181e2a236b4) - **refactor:** avoid unnecessary computation _(by Athan Reines)_
 -   [`9cff95d`](https://github.com/stdlib-js/stdlib/commit/9cff95ddb6969672c0ca55117caa70a34fd9c640) - **chore:** update random number generation function in `triangular/logpdf` [(#5266)](https://github.com/stdlib-js/stdlib/pull/5266) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`3ee60b4`](https://github.com/stdlib-js/stdlib/commit/3ee60b4370969d787a3446b90b276f74bc2f9cb3) - **feat:** add C implementation for `stats/base/dists/triangular/quantile` [(#4307)](https://github.com/stdlib-js/stdlib/pull/4307) _(by Prashant Kumar Yadav, Philipp Burckhardt, stdlib-bot)_
@@ -544,6 +123,27 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 10 people contributed to this release. Thank you to the following contributors:
+
+-   Aman Bhadkariya
+-   Athan Reines
+-   Divyansh Seth
+-   Jalaj Kumar
+-   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
+-   Pulkit Gupta
+-   Saurabh Singh
+-   Tufailahmed Bargir
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -551,26 +151,6 @@ A total of 10 people contributed to this release. Thank you to the following con
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -586,6 +166,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -605,26 +197,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -640,6 +212,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -648,557 +232,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-triangular-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-logcdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-logpdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/logpdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-pdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-triangular-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/triangular/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/triangular/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1211,18 +253,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1240,6 +270,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
