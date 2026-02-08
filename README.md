@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@deno/mod.js';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Triangular, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@deno/mod.js';
+import { Triangular, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.3.1-deno/mod.js';
 ```
 
 #### triangular
@@ -132,7 +132,7 @@ y = dist.quantile( 1.9 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@deno/mod.js';
+import triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular@v0.3.1-deno/mod.js';
 
 // Scenario: Modeling completion time for a software development task
 
