@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2026-02-08)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`baaed47`](https://github.com/stdlib-js/stdlib/commit/baaed472c168e6b26437cf48137cdf79c3fd544b) - **bench:** refractor to use string interpolation in `stats/base/dists/triangular` [(#10063)](https://github.com/stdlib-js/stdlib/pull/10063) _(by Shubham, Athan Reines)_
+-   [`9b98e3f`](https://github.com/stdlib-js/stdlib/commit/9b98e3f6a8a80db920ed4aa05264e356aa019605) - **refactor:** reduce FLOPs _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Shubham
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2026-01-30)
