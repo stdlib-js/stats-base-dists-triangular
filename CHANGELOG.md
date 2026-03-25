@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-03-25)
 
 <section class="commits">
 
@@ -12,6 +12,9 @@
 
 <details>
 
+-   [`ea63211`](https://github.com/stdlib-js/stdlib/commit/ea63211c94ab3e1504fd23279f1bd7b6b05d8987) - **docs:** fix incorrect return value in C usage section [(#10955)](https://github.com/stdlib-js/stdlib/pull/10955) _(by Om-A-osc)_
+-   [`ff46826`](https://github.com/stdlib-js/stdlib/commit/ff468262ccfafc3d15037ccdcb92920f980a6f0d) - **docs:** fix C include headers in `stats/base/dists/traingular/logcdf/README.md` [(#10954)](https://github.com/stdlib-js/stdlib/pull/10954) _(by Om-A-osc)_
+-   [`8085ec9`](https://github.com/stdlib-js/stdlib/commit/8085ec9b06af954eeaaf6491c13d4ee23c2070a0) - **docs:** fix incorrect return value in C usage section `triangular/mean` [(#10958)](https://github.com/stdlib-js/stdlib/pull/10958) _(by Om-A-osc)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +27,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Om-A-osc
 -   Philipp Burckhardt
 
 </section>
