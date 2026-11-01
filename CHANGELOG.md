@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-15)
+## Unreleased (2026-11-01)
 
 <section class="commits">
 
@@ -12,6 +12,18 @@
 
 <details>
 
+-   [`10bc5c8`](https://github.com/stdlib-js/stdlib/commit/10bc5c804bfd0831d3891eda029950b1f2d17453) - **test:** migrate `stats/base/dists/triangular/pdf` to ULP-based assertions [(#16279)](https://github.com/stdlib-js/stdlib/pull/16279) _(by Athan Reines)_
+-   [`c5d712e`](https://github.com/stdlib-js/stdlib/commit/c5d712e690c49a3e72c31efa3b35f28f6929483c) - **test:** migrate `stats/base/dists/triangular/logpdf` to ULP-based assertions [(#16007)](https://github.com/stdlib-js/stdlib/pull/16007) _(by Athan Reines)_
+-   [`f9e32db`](https://github.com/stdlib-js/stdlib/commit/f9e32db734a4e7398f5ac4bc6c17da9c1ea27f92) - **test:** increase tolerance to account for compiler optimizations [(#15534)](https://github.com/stdlib-js/stdlib/pull/15534) _(by Philipp Burckhardt, Athan Reines)_
+-   [`e737e90`](https://github.com/stdlib-js/stdlib/commit/e737e9002982713c3533a9a5fe3e0c6a8e7e79ee) - **chore:** clean-up [(#15498)](https://github.com/stdlib-js/stdlib/pull/15498) _(by Philipp Burckhardt)_
+-   [`a592a8d`](https://github.com/stdlib-js/stdlib/commit/a592a8dbc71b01671516111d825cf3062fe0c55f) - **test:** migrate `stats/base/dists/triangular/skewness` to ULP-based assertions [(#15505)](https://github.com/stdlib-js/stdlib/pull/15505) _(by Devansh Patel)_
+-   [`68b4b33`](https://github.com/stdlib-js/stdlib/commit/68b4b338b1d1d6dfc8059b99295bb45c51aa2890) - **test:** migrate `stats/base/dists/triangular/stdev` to ULP-based assertions [(#15460)](https://github.com/stdlib-js/stdlib/pull/15460) _(by Devansh Patel)_
+-   [`a3e3463`](https://github.com/stdlib-js/stdlib/commit/a3e346300a2855a4a1bfb48c31f588db0f515121) - **style:** add whitespace [(#15394)](https://github.com/stdlib-js/stdlib/pull/15394) _(by Philipp Burckhardt)_
+-   [`c9510cd`](https://github.com/stdlib-js/stdlib/commit/c9510cdf2c6cc430a9409887d37b3c28c1c5e617) - **test:** migrate `stats/base/dists/triangular/median` to ULP-based assertions [(#15396)](https://github.com/stdlib-js/stdlib/pull/15396) _(by Devansh Patel)_
+-   [`dfbd4c5`](https://github.com/stdlib-js/stdlib/commit/dfbd4c5c8225ca2b7b3c9d04b251b4f978673d22) - **test:** migrate `stats/base/dists/triangular/quantile` to ULP-based assertions [(#15354)](https://github.com/stdlib-js/stdlib/pull/15354) _(by Aryan kumar)_
+-   [`2ca1d14`](https://github.com/stdlib-js/stdlib/commit/2ca1d1403bf79fdb239132f3d5350f0aac9c381b) - **test:** migrate `stats/base/dists/triangular/mean` to ULP-based assertions [(#15364)](https://github.com/stdlib-js/stdlib/pull/15364) _(by Devansh Patel)_
+-   [`c26c1bc`](https://github.com/stdlib-js/stdlib/commit/c26c1bcaefc8aa54f347c67d6adf804de11c9174) - **test:** migrate `stats/base/dists/triangular/mode` to ULP-based assertions [(#15291)](https://github.com/stdlib-js/stdlib/pull/15291) _(by Athan Reines)_
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`10a0397`](https://github.com/stdlib-js/stdlib/commit/10a0397bf51a38e082bf1a4476bc3a9fca53cfc5) - **test:** migrate `stats/base/dists/triangular/cdf` to ULP-based assertions [(#15112)](https://github.com/stdlib-js/stdlib/pull/15112) _(by Athan Reines)_
 -   [`71bcc30`](https://github.com/stdlib-js/stdlib/commit/71bcc302465a485a0214ca8c183beaf464b6facb) - **test:** migrate `stats/base/dists/triangular/entropy` to ULP-based assertions [(#15097)](https://github.com/stdlib-js/stdlib/pull/15097) _(by Athan Reines)_
 -   [`3bf5a14`](https://github.com/stdlib-js/stdlib/commit/3bf5a14ee88949be8e9b399338a5c63df3e5d058) - **test:** migrate `stats/base/dists/triangular/kurtosis` to ULP-based assertions [(#14975)](https://github.com/stdlib-js/stdlib/pull/14975) _(by Athan Reines)_
@@ -41,10 +53,11 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Athan Reines
+-   Devansh Patel
 -   Om-A-osc
 -   Philipp Burckhardt
 -   anee3

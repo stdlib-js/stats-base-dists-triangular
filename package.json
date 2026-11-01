@@ -65,7 +65,6 @@
     "@stdlib/constants-float64-pinf": "^0.2.3",
     "@stdlib/constants-float64-sqrt-two": "^0.2.3",
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
-    "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-exp": "^0.2.5",
     "@stdlib/math-base-special-expm1": "^0.2.4",
     "@stdlib/math-base-special-ln": "^0.2.5",
